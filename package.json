@@ -1,0 +1,28 @@
+{
+  "name": "simple-page-scraper",
+  "version": "1.0.0",
+  "description": "a simple page scraper with request promise and cheerio",
+  "main": "index.html",
+  "scripts": {
+    "start": "parcel index.html --open",
+    "build": "parcel build index.html"
+  },
+  "dependencies": {
+    "cheerio": "1.0.0-rc.2",
+    "puppeteer": "1.9.0",
+    "request": "2.88.0",
+    "request-promise": "4.2.2"
+  },
+  "devDependencies": {
+    "@types/cheerio": "0.22.9",
+    "@types/puppeteer": "1.9.0",
+    "@types/request": "2.47.1",
+    "@types/request-promise": "4.1.42",
+    "parcel-bundler": "^1.6.1"
+  },
+  "keywords": [
+    "scrape",
+    "page scraper",
+    "scraping"
+  ]
+}
